@@ -1,0 +1,288 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    opacity: 2;
+    cursor: pointer;
+}
+
+.section1 .menu-class a:hover{
+    color: #9b9b9b;
+}
+
+html {
+    font: normal 16px sans-serif;
+    color: #555;
+    scroll-behavior: smooth;
+}
+
+.Section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.section1 .menu-class li{
+    position: relative;
+    Top:0;
+    left:0;
+}
+
+.section1 .menu-class{
+    background: #000000;
+
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'segoe ui';
+}
+
+.section1 .textoimagen-class{
+    display: inline-block;
+    z-index: 0;
+    font-style: oblique;
+    padding: 10px 40px;
+    color: black;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+    line-height: 4.00;
+    font-size: 25px;
+}
+
+.section1 .enlace-imagen{
+    display: inline-block;
+    padding: 0;
+    background: rgb(0,0,0);
+    text-decoration: none;
+    opacity:1;
+    border: 1px white solid;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.enlace-imagen:hover{
+    transform: scale(0.97);
+}
+
+.menu-class a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.section1 .imagen-fondo img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+.section1 .imagen-fondo::after{
+    content: "";
+    position: absolute;
+    top: 9%;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background: rgba(100, 99, 100, 0.54);
+}
+
+/*section 2*/
+
+.section2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    Top:100%;
+    Left:0;
+    background: #5DC1B9;
+    line-height: 1.00;
+}
+
+.section2 h1{
+    font-size:50px;
+    color:#000000;
+    font-weight: 50;
+}
+
+.section2 h2{
+    font-size:30px;
+    color: #000000;
+    font-weight:20;
+    position: relative;
+    left:200px;
+}
+
+.section2 .imagen-salida{
+    position: relative;
+    right:30%;
+    bottom:100px;
+}
+
+
+.section2 img{
+    width: 30%;
+    margin:0.5em;
+    border:  2px solid rgba(131, 62, 62, 0.2);
+    buttom:0px;
+}
+
+.section2 .articulo1-class imagen-salida img{
+    position: relative;
+    top:0;
+    left:0;
+}
+.section2 article .imagen-salida{
+    bottom:250px;
+}
+
+.section2 p{
+
+    position: relative;
+    left: 200px;
+    top:15px;
+    font-size: 20px;
+    line-height: 1.00;
+    color: black;
+}
+.section2 h2{
+    line-height: 5.00;
+}
+
+.section2 article{
+    line-height: 2.00;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+    position: relative;
+
+}
+.section2 .mas-informacion{
+    line-height: 5.00;
+    font-size: 15px;
+    color: #000000;
+    text-decoration-color: black;
+    text-decoration: underline;
+}
+
+
+/*Section3*/
+
+.section3{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background:#FFFFFF;
+    line-height: 1.50;
+    font-size:20px;
+}
+
+/*.section3 h2{
+    position:absolute;
+    top:2px;
+}*/
+
+/*Section4*/
+.section4{
+    text-align:center;
+    align-items: center;
+    position:relative;
+    justify-content: space-around;
+    width:100%;
+    height:600px;
+    display:flex;
+    background: #5DC1B9;
+    display-flex: row;
+}
+
+.section4 .ic-class h1{
+    font-size: 20px;
+    position: relative;
+    line-height: 3.00;
+}
+.section4 .ic-class p{
+    text-align:justify;
+}
+
+.icon{
+    font-size: 10rem;
+}
+
+.section5 {
+    display:flex;
+    justify-content: space-around;
+    background: #000000;
+    width:100%;
+    height: 200px;
+}
+.section5 div{
+    line-height: 2.00;
+}
+.section5 h3 {
+    color: #FFFFFF;
+}
+.section5 ul li a{
+    color: #9b9b9b;
+    text-decoration: none;
+    list-style: none;
+}
+.section5 ul li a:hover{
+    transform: scale(0.97);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*a:btn{
+    color: #fff;
+    border-radius:4px;
+    text-transform: uppercase;
+    background-color: #2196f3;
+    font-weight: 800;
+    text-align:center;
+}*/
+
+
+
+
+
+
